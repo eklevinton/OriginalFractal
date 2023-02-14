@@ -39,14 +39,7 @@ public void mousePressed()
 }
 
 public void fractal(int x, int y, int rad)
-{
-  /*translate(x, y);
-  stroke(255,0,0);
-  strokeWeight(2);
-  for(float t = 0; t <= 2*PI; t+=.01){ 
-     point((-16*rad*pow(sin(t), 3)), (-13*rad*cos(t)-5*rad*cos(2*t)-2*rad*cos(3*t)-cos(4*t))); 
-  }*/
-  
+{ 
   float rrad = 0.8 * rad;
   int bottomY = y+rad/2;
   
